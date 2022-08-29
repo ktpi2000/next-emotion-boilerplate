@@ -11,7 +11,8 @@
     "prettier:fix": "yarn prettier --write",
     "eslint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "eslint:fix": "yarn eslint --fix",
-    "format": "yarn prettier && yarn eslint"
+    "format": "yarn prettier && yarn eslint",
+    "format:fix": "yarn prettier:fix && yarn eslint:fix"
   },
   "dependencies": {
     "@emotion/react": "^11.10.0",
